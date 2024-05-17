@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/plus-jakarta-sans"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="options-container">
+      <div class="choice-numQuestions card">
+        <p class="option-title">Select Number of Questions:</p>
+        <div class="chips-container questions">
+          <span class="chip active" data-value="10">10</span
+          ><span class="chip" data-value="15">15</span
+          ><span class="chip" data-value="20">20</span>
+        </div>
+      </div>
+
+      <div class="choice-Category card">
+        <p class="option-title">Select a Category:</p>
+        <div class="category-container">
+          <div class="category-container">
+            <span class="chip active" data-value="any">Any Category</span>
+            <span class="chip" data-value="9">General Knowledge</span>
+            <span class="chip" data-value="10">Entertainment: Books</span>
+            <span class="chip" data-value="11">Entertainment: Film</span>
+            <span class="chip" data-value="12">Entertainment: Music</span>
+            <span class="chip" data-value="13"
+              >Entertainment: Musicals &amp; Theatres</span
+            >
+            <span class="chip" data-value="14">Entertainment: Television</span>
+            <span class="chip" data-value="15">Entertainment: Video Games</span>
+            <span class="chip" data-value="16">Entertainment: Board Games</span>
+            <span class="chip" data-value="17">Science &amp; Nature</span>
+            <span class="chip" data-value="18">Science: Computers</span>
+            <span class="chip" data-value="19">Science: Mathematics</span>
+            <span class="chip" data-value="20">Mythology</span>
+            <span class="chip" data-value="21">Sports</span>
+            <span class="chip" data-value="22">Geography</span>
+            <span class="chip" data-value="23">History</span>
+            <span class="chip" data-value="24">Politics</span>
+            <span class="chip" data-value="25">Art</span>
+            <span class="chip" data-value="26">Celebrities</span>
+            <span class="chip" data-value="27">Animals</span>
+            <span class="chip" data-value="28">Vehicles</span>
+            <span class="chip" data-value="29">Entertainment: Comics</span>
+            <span class="chip" data-value="30">Science: Gadgets</span>
+            <span class="chip" data-value="31"
+              >Entertainment: Japanese Anime &amp; Manga</span
+            >
+            <span class="chip" data-value="32"
+              >Entertainment: Cartoon &amp; Animations</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="choice-Difficulty card mb-4">
+        <p class="option-title">Select a Difficulty:</p>
+        <div class="chips-container difficulty">
+          <span class="chip active" data-value="easy">Easy</span
+          ><span class="chip" data-value="medium">Medium</span
+          ><span class="chip" data-value="hard">Hard</span>
+        </div>
+      </div>
+      <a class="btn dark start-btn">
+        <i class="fa-solid fa-play icon"></i> Start Quiz
+      </a>
+    </div>
+ 
+  </body>
+  <script src="./index.js"></script>
+</html>
